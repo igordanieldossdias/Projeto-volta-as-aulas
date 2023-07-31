@@ -1,0 +1,108 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #000000;
+}
+
+nav {
+    background-color: #39574C ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+}
+
+.logop {
+    height: 75px;
+    display: flex;
+}
+
+.endless{
+    font-size: x-large ;
+    inline-size: auto;
+    color: rgb(23, 51, 33);
+}
+
+.a {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: larger;
+    color: rgb(23, 51, 33);
+}
+
+#logo{
+    margin-top: 2%;
+    height: 400px;
+    width: 100%;
+}
+
+.logog{
+    margin-left: 7%;
+    height: 50%;
+    display: flex;
+}
+
+h1{
+    color: #39574C;
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sobre{
+    margin-left: 2%;
+    width: 480px;
+    height: 200px;
+    position: absolute;
+    top: 420px;
+}
+
+.psobre{
+    color: cadetblue
+}
+
+.form {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 55%;
+    left: 50% ;
+}
+
+label{
+    color: cadetblue ;
+}
+
+input {
+    background: #ffffff;
+    border-radius: 50px;
+    height: 20px;
+    width: 270px;
+}
+
+.usuario {
+    margin-top: 15px;
+}
+
+.senha {
+    margin-top: 15px;
+}
+
+.botao{
+        margin-top: 15px;
+
+}
+
+.icon{
+    position: absolute;
+    transform: translateY(-50%);
+    background: url(./imagens/hide.png);
+    background-size: cover;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    left: 290px;
+    top: 100px;
+}
+

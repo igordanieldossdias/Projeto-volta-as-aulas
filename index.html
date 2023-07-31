@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+    <script type="text/javascript" src="main.js"></script>
+    <title>Endless</title>
+</head>
+
+<body>
+
+    <nav>
+        <img src="imagens/logo.png" alt="logo pequena" class="logop">
+        <p class="endless"> Endless </p>
+        <a href="home" class="a">Home</a>
+        <a href="sobre"class="a">Sobre</a>
+        <a href="contato" class="a">Contato</a>
+    </nav>
+
+    <div id="logo">
+        <img src="imagens/logo.png" alt="logo grande" class="logog">
+        <h1> Você sem limites</h1>
+    </div>
+
+    <div class="sobre">
+        <p class="psobre"> A "Endless" é uma empresa de roupas que nasceu da paixão pela moda e da busca incessante por peças exclusivas e de alta qualidade. 
+            Fundada por Igor Daniel em 2020 com estilo próprio e fugindo de tendências, a Endless rapidamente se tornou uma referência no mundo
+            da moda, conquistando o coração de clientes de todas as idades ao redor do mundo.</p>
+    </div>
+
+    <div class="validacao">
+
+        <form class="form">
+           <fieldset>
+            <div class="email">
+                <label> email </label>
+                <input type="email"name="email" id="email">
+            </div>
+
+            <div class="usuario">
+                <label> usuário </label>
+                <input type="text"name="usuario" id="usuario">
+            </div>
+
+            <div class="senha">
+                <label> senha </label>
+                <input type="password"name="senha" id="senha">
+                <div class="icon" onclick="showhide()"></div>
+
+            </div>
+
+            <button onclick="validacao()" class="botao">login</button>
+        
+
+           </fieldset>
+          </form>
+
+    </div>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
